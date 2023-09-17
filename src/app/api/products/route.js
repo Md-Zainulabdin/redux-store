@@ -4,7 +4,6 @@ export const GET = async () => {
     try {
         const res = await fetch(`https://fakestoreapi.com/products`);
         const products = await res.json();
-        console.log(products.length);
         return NextResponse.json({
             products,
             message: "Products get succesfully"

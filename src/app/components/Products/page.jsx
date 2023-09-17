@@ -1,11 +1,8 @@
-"use client"
-import React from 'react'
-
+"use client";
+import React from "react";
 
 const Products = () => {
-  return (
-    <div>Products</div>
-  )
-}
+  return <div>{}</div>;
+};
 
-export default Products
+export default Products;
