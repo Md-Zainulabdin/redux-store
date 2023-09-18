@@ -6,7 +6,7 @@ const Products = async () => {
   const allProducts = productList;
 
   return (
-    <div className="px-[20px] md:px-[50px]">
+    <div className="w-full px-[20px] md:px-[50px]">
       <ProductCard products={allProducts} />
     </div>
   );

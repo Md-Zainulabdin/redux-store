@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar/page'
 import ReduxProvider from './components/ReduxProvider/page'
 import './globals.css'
-import { Inter, Red_Hat_Display } from 'next/font/google'
+import { Inter} from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
